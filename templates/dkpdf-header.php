@@ -26,7 +26,7 @@
 				// check if Header logo exists
 				if( $pdf_header_image_attachment ) { ?>
 
-					<div style="width:20%;float:left;">
+					<div style="width:20%;float:left;" class="header-logo">
 						<img style="width:auto;height:55px;" src="<?php echo $pdf_header_image_attachment[0];?>">
 					</div>
 
